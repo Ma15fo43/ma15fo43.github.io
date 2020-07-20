@@ -152,5 +152,12 @@ a:hover {
 
     .project {
         display: block;
+        height: auto;
+        width: auto;
+        float: none;
+    }
+
+    .wave {
+        display: none;
     }
 }
