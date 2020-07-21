@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:ital@1&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -12,6 +13,31 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: white;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+.menu-item {
+    font-size: 30px;
+}
+
+.menu-item:after {
+    content: "•";
+    display: inline-block;
+    padding: 0 3%;
+    color: white;
+}
+
+.menu-item:last-child:after {
+    display: none;
 }
 
 .secondslide {
@@ -102,16 +128,6 @@ body {
     margin-right: auto;
 }
 
-.menu a {
-    color: white;
-    text-decoration: none;
-    transition-duration: .5s;
-}
-
-.menu a:hover {
-    color: yellow;
-}
-
 a {
     color: hotpink;
     text-decoration: none;
@@ -130,7 +146,7 @@ a:hover {
     border-radius: 25px;
     float: none;
     margin: 3em auto auto auto;
-    width: 40%;
+    width: 50%;
     height: fit-content;
     text-align: center;
     font-size: 130%;
@@ -139,15 +155,29 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
+    .firstslide {
+        margin-top: -100px;
+    }
+
+    #bio {
+        font-size: 20px !important;
+    }
+
     .container {
         width: 80%;
         height: 80%;
+        font-size: 13px !important;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .menu a {
-        font-size: 25px;
+    .menu-item {
+        font-size: 28px;
+        display: block;
+    }
+
+    .menu-item:after {
+        display: none;
     }
 
     .project {
