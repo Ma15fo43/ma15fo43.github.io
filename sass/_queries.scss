@@ -1,0 +1,37 @@
+@media screen and (max-width: 600px) {
+    .firstslide {
+        margin-top: -100px;
+    }
+
+    #bio {
+        font-size: 20px !important;
+    }
+
+    .container {
+        width: 80%;
+        height: 80%;
+        font-size: 13px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu-item {
+        font-size: 28px;
+        display: block;
+    }
+
+    .menu-item:after {
+        display: none;
+    }
+
+    .project {
+        display: block;
+        height: auto;
+        width: auto;
+        float: none;
+    }
+
+    .wave {
+        display: none;
+    }
+}
