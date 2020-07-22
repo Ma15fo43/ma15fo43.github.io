@@ -18,10 +18,10 @@
     .menu-item {
         font-size: 28px;
         display: block;
-    }
 
-    .menu-item:after {
-        display: none;
+        &:after {
+            display: none;
+        }
     }
 
     .project {

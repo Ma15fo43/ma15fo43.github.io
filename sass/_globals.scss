@@ -1,27 +1,26 @@
 .slide-basic {
     padding: 170px 0;
     position: relative;
-}
 
-.slide-basic:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
 }
 
 a {
     color: hotpink;
     text-decoration: none;
     transition-duration: .5s;
-}
 
-a:hover {
-    color: pink;
+    &:hover {
+        color: pink;
+    }
 }
 
 .project {
@@ -63,8 +62,8 @@ a:hover {
 .icons {
     transition: transform .2s;
     font-size: 70px !important;
-}
 
-.icons:hover {
-    transform: rotateZ(30deg) scale(1.3);
+    &:hover {
+        transform: rotateZ(30deg) scale(1.3);
+    }
 }

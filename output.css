@@ -3,23 +3,21 @@
 .slide-basic, .firstslide, .secondslide {
   padding: 170px 0;
   position: relative; }
-
-.slide-basic:before, .firstslide:before, .secondslide:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; }
+  .slide-basic:before, .firstslide:before, .secondslide:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
 
 a {
   color: hotpink;
   text-decoration: none;
   transition-duration: .5s; }
-
-a:hover {
-  color: pink; }
+  a:hover {
+    color: pink; }
 
 .project {
   border-radius: 25px;
@@ -56,32 +54,29 @@ a:hover {
 .icons {
   transition: transform .2s;
   font-size: 70px !important; }
-
-.icons:hover {
-  transform: rotateZ(30deg) scale(1.3); }
+  .icons:hover {
+    transform: rotateZ(30deg) scale(1.3); }
 
 .firstslide {
   background-color: #f4f4f4;
   color: black; }
-
-.firstslide:before {
-  background-color: #f4f4f4;
-  z-index: 1;
-  transform: skewY(-2deg);
-  transform-origin: 0% 0; }
+  .firstslide:before {
+    background-color: #f4f4f4;
+    z-index: 1;
+    transform: skewY(-2deg);
+    transform-origin: 0% 0; }
 
 .secondslide {
   background-color: white;
   color: black; }
-
-.secondslide:before {
-  background-color: white;
-  z-index: 2;
-  -moz-transform: skewY(2deg);
-  -ms-transform: skewY(2deg);
-  -webkit-transform: skewY(2deg);
-  transform: skewY(2deg);
-  transform-origin: 100% 0; }
+  .secondslide:before {
+    background-color: white;
+    z-index: 2;
+    -moz-transform: skewY(2deg);
+    -ms-transform: skewY(2deg);
+    -webkit-transform: skewY(2deg);
+    transform: skewY(2deg);
+    transform-origin: 100% 0; }
 
 @media screen and (max-width: 600px) {
   .firstslide {
@@ -100,9 +95,8 @@ a:hover {
   .menu-item {
     font-size: 28px;
     display: block; }
-
-  .menu-item:after {
-    display: none; }
+    .menu-item:after {
+      display: none; }
 
   .project {
     display: block;
@@ -126,23 +120,19 @@ body {
   color: white; }
 
 .menu a {
+  font-size: 30px;
   color: white;
   text-decoration: none;
   transition-duration: .5s; }
-
-.menu a:hover {
-  color: red; }
-
-.menu-item {
-  font-size: 30px; }
+  .menu a:hover {
+    color: red; }
 
 .menu-item:after {
   content: "•";
   display: inline-block;
   padding: 0 3%;
   color: white; }
-
-.menu-item:last-child:after {
-  display: none; }
+  .menu-item:after:last-child:after {
+    display: none; }
 
 /*# sourceMappingURL=output.css.map */

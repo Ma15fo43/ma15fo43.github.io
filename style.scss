@@ -18,18 +18,17 @@ body {
     color: white;
 }
 
-.menu a {
-    color: white;
-    text-decoration: none;
-    transition-duration: .5s;
-}
+.menu {
+    a {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        transition-duration: .5s;
 
-.menu a:hover {
-    color: red;
-}
-
-.menu-item {
-    font-size: 30px;
+        &:hover {
+            color: red;
+        }
+    }
 }
 
 .menu-item:after {
@@ -37,8 +36,8 @@ body {
     display: inline-block;
     padding: 0 3%;
     color: white;
-}
 
-.menu-item:last-child:after {
-    display: none;
+    &:last-child:after {
+        display: none;
+    }
 }
