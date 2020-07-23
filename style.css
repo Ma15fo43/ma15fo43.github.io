@@ -144,6 +144,16 @@ body {
   padding: 0;
 }
 
+body ::-moz-selection {
+  background: darkred;
+  color: white;
+}
+
+body ::selection {
+  background: darkred;
+  color: white;
+}
+
 .header {
   padding: 170px 0;
   background-image: url("assets/sunset.png");
@@ -174,16 +184,6 @@ body {
   content: "•";
   display: inline-block;
   padding: 0 3%;
-  color: white;
-}
-
-::-moz-selection {
-  background: darkred;
-  color: white;
-}
-
-::selection {
-  background: darkred;
   color: white;
 }
 /*# sourceMappingURL=style.css.map */
