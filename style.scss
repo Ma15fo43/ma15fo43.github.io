@@ -31,13 +31,15 @@ body {
     }
 }
 
-.menu-item:after {
-    content: "•";
-    display: inline-block;
-    padding: 0 3%;
-    color: white;
-
-    &:last-child:after {
+.menu-item {
+    &:last-child::after {
         display: none;
+    }
+
+    &:after {
+        content: "•";
+        display: inline-block;
+        padding: 0 3%;
+        color: white;
     }
 }
