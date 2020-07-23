@@ -43,3 +43,8 @@ body {
         color: white;
     }
 }
+
+::selection {
+    background: darkred;
+    color: white;
+}

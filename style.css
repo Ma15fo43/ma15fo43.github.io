@@ -176,4 +176,14 @@ body {
   padding: 0 3%;
   color: white;
 }
+
+::-moz-selection {
+  background: darkred;
+  color: white;
+}
+
+::selection {
+  background: darkred;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
