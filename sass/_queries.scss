@@ -20,6 +20,7 @@
         display: block;
 
         &:after {
+            content: "" !important;
             display: none;
         }
     }
@@ -33,5 +34,9 @@
 
     .wave {
         display: none;
+    }
+
+    .icons {
+        font-size: 40px !important;
     }
 }
