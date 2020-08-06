@@ -15,8 +15,11 @@
         margin-right: auto;
     }
 
+    .menu a {
+        font-size: 25px !important;
+    }
+
     .menu-item {
-        font-size: 28px;
         display: block;
 
         &:after {
@@ -38,5 +41,13 @@
 
     .icons {
         font-size: 40px !important;
+    }
+
+    .list-divider {
+        width: 70% !important;
+    }
+
+    img {
+        width: 95% !important;
     }
 }
