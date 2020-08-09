@@ -35,10 +35,14 @@ a:hover {
   height: -moz-fit-content;
   height: fit-content;
   text-align: center;
-  font-size: 130%;
   -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75) !important;
           box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75) !important;
   right: 10px;
+  line-height: 32px;
+  letter-spacing: -1.54px;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 126%;
 }
 
 .container {
@@ -52,6 +56,13 @@ a:hover {
   line-height: 1;
   letter-spacing: -0.04em;
   font-weight: 900;
+  font-style: normal;
+}
+
+.container h2 {
+  line-height: 35px;
+  letter-spacing: -0.97px;
+  font-weight: 100;
   font-style: normal;
 }
 
