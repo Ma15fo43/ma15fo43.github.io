@@ -33,6 +33,11 @@ a {
     font-size: 130%;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75) !important;
     right: 10px;
+    line-height: 32px;
+    padding: 0 20px;
+    font-weight: 100;
+    letter-spacing: -0.4px;
+    font-size: 22px;
 }
 
 .container {
@@ -47,6 +52,13 @@ a {
     letter-spacing: -0.04em;
     font-weight: 900;
     font-style: normal;
+    
+    h2 {
+        line-height: 35px;
+        letter-spacing: -0.97px;
+        font-weight: 100;
+        font-style: normal;   
+    }
 }
 
 .list-divider {
