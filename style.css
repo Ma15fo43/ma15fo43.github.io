@@ -40,6 +40,7 @@ a:hover {
   -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75) !important;
           box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75) !important;
   right: 10px;
+  font-weight: 500;
 }
 
 .container {
@@ -48,6 +49,10 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+}
+
+.container h2 {
+  font-weight: 500; 
 }
 
 .list-divider {
