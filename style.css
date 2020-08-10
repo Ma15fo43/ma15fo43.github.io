@@ -40,7 +40,10 @@ a:hover {
   -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75) !important;
           box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75) !important;
   right: 10px;
-  font-weight: 500;
+}
+
+.project h4 {
+  font-weight: 500; 
 }
 
 .container {
