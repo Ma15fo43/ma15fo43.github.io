@@ -1,2 +1,2 @@
-# https://ignmazz.github.io
+# https://mazz.fun
 My new website, completely redesigned. 
