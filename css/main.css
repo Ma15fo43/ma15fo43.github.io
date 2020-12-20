@@ -6,6 +6,7 @@
 }
 
 .header {
+  height: 100vh;
   font-weight: 500;
   text-align: center;
   color: white;
@@ -66,11 +67,8 @@
   padding: 0%;
   margin: 1vh 0;
 }
-#projects .borderone h1, #projects .bordertwo h1 {
-  font-size: 5em;
-}
 #projects .borderone h3, #projects .bordertwo h3 {
-  font-size: 2em;
+  font-weight: 400;
 }
 #projects .language {
   display: inline-block;
@@ -396,17 +394,20 @@
   .header h4 {
     display: none;
   }
+  .header .scroll-down {
+    bottom: 70px;
+  }
 
-  #about h1, #skills h1 {
+  #about h1, #skills h1, #projects h1 {
     font-size: 6vh;
   }
-  #about h3, #skills h3 {
+  #about h3, #skills h3, #projects h3 {
     font-size: 3vh;
   }
-  #about img, #skills img {
+  #about img, #skills img, #projects img {
     width: 100vw;
   }
-  #about .skill-bars, #skills .skill-bars {
+  #about .skill-bars, #skills .skill-bars, #projects .skill-bars {
     width: 80vw;
     float: none;
     margin-left: 10vw !important;

@@ -5,6 +5,7 @@
 }
 
 .header {
+    height: 100vh;
     font-weight: 500;
     text-align: center;
     color: white;
@@ -75,12 +76,8 @@
             margin: 1vh 0;
         }
 
-        h1 {
-            font-size: 5em;
-        }
-
         h3 {
-            font-size: 2em;
+            font-weight: 400;
         }
     }
 

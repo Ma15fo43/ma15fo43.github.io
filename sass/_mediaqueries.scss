@@ -21,9 +21,13 @@
 		h4 {
 			display: none;
 		}
+
+		.scroll-down {
+			bottom: 70px;
+		}
 	}
 	
-	#about, #skills {
+	#about, #skills, #projects {
 		h1 {
 			font-size: 6vh;
 		}
