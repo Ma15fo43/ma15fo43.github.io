@@ -1,0 +1,92 @@
+.slideone {
+    margin-top: 0% !important;
+    background-image: url("../assets/wallpaper.jpg");
+    background-attachment: fixed;
+}
+
+.header {
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    position: relative;
+    line-height: 1.5;
+
+    h2 {
+        font-size: 5em;
+        padding-top: 10vh;
+    }
+
+    h3 {
+        font-size: 2em;
+        margin-top: 7vh;
+    }
+
+    h4 {
+        font-size: 1.7em;
+        margin-top: 25vh;
+    }
+}
+
+#about, #skills, #projects {
+    h1, h2, h3, h4 {
+        margin-left: 8vh;
+        margin-right: 8vh;
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 5em;
+        margin-top: 0;
+        padding-top: 5vh;
+    }
+
+    h3 {
+        font-size: 1.7em;
+        margin-top: 3vh;
+        font-weight: 400;
+    }
+}
+
+#about {
+    color: white;
+
+    img {
+        width: 65vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+#skills {
+    color: purple;
+}
+
+#projects {
+    color: white;
+    a {
+        text-decoration: none;
+    }
+
+    .borderone, .bordertwo {
+        h1, h3 {
+            text-align: center;
+            padding: 0%;
+            margin: 1vh 0;
+        }
+
+        h1 {
+            font-size: 5em;
+        }
+
+        h3 {
+            font-size: 2em;
+        }
+    }
+
+    .language {
+        display: inline-block;
+        font-weight: 600;
+        font-size: 1.7em;
+    }
+}

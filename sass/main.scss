@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import "./contents";
+@import "./scrolldown";
+@import "./utils";
+@import "./skillbars";
+@import "./mediaqueries";
+
+html, body {
+	top: 0;
+	min-height: 100vh;
+	min-height: -webkit-fill-available;
+	height: -webkit-fill-available;
+}
+
+* {
+	margin: 0px;
+	font-family: "Poppins", sans-serif;
+}
